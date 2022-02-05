@@ -1,0 +1,33 @@
+.intro {
+  display: flex;
+  height: 100vh;
+}
+
+.intro-left {
+  flex: 1;
+  padding: 2rem;
+}
+
+.intro-greeting {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.intro-name{
+
+}
+
+.intro-title {
+
+}
+
+.intro-title-item {
+
+}
+
+
+.intro-right {
+  flex: 1;
+  padding: 2rem;
+}
+
