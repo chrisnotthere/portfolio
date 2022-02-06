@@ -16,10 +16,11 @@ body {
 }
 
 .intro-left-wrapper {
-  background-color: #f2c14e;
+  background: linear-gradient(90deg, #f2c14e 75%, #4d9078 100%);  
+  /* background-color: #f2c14e; */
   padding: 2rem;
   border-radius: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 22px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 22px;
 }
 
 .intro-greeting {
@@ -65,9 +66,20 @@ body {
   font-size: 2rem;
   box-shadow: 1pt solid black;
   font-weight: 600;
-  color: #e76d3d;
   display: flex;
   align-items: center;
+}
+
+.i1 {
+  color: #4d9078;
+}
+
+.i2 {
+  color: #eb7c44;
+}
+
+.i3 {
+  color: #9eb708;
 }
 
 .intro-right {
