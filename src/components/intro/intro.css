@@ -1,3 +1,7 @@
+body {
+  background-color: #f2c14e;
+}
+
 .intro {
   display: flex;
   height: 100vh;
@@ -5,29 +9,86 @@
 
 .intro-left {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d9078;
+}
+
+.intro-left-wrapper {
+  background-color: #f2c14e;
   padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 22px;
 }
 
 .intro-greeting {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
-.intro-name{
-
+.intro-name {
+  font-size: 5rem;
+  font-weight: 500;
 }
 
 .intro-title {
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+}
 
+.intro-title-start {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-right: 1rem;
+}
+
+.intro-title-wrapper {
+  height: 100%;
+  animation: move 7s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  50% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(-100px);
+  }
 }
 
 .intro-title-item {
-
+  height: 50px;
+  font-size: 2rem;
+  box-shadow: 1pt solid black;
+  font-weight: 600;
+  color: #e76d3d;
+  display: flex;
+  align-items: center;
 }
-
 
 .intro-right {
   flex: 1;
-  padding: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.intro-right-bg {
+  clip-path: polygon(0% 0%, 60% 0%, 100% 50%, 60% 100%, 0% 100%);
+  width: 100%;
+  height: 100%;
+  background-color: #4d9078;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.intro-right-image {
+  max-width: 40%;
+}
