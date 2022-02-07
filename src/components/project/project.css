@@ -2,14 +2,13 @@
   max-width: 40%;
   margin: 1rem;
   padding-bottom: 1rem;
-  border: 2px solid #4d9078;
+  border: 2px solid #fff09c;
   border-radius: 1rem;
-  transition: transform .4s; 
   overflow: hidden;
 }
 
 .project:hover {
-  transform: scale(1.03);
+  border: 2px solid #4d9078;
 }
 
 .project-name {
