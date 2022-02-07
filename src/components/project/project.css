@@ -1,0 +1,46 @@
+.project {
+  max-width: 40%;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid #4d9078;
+  border-radius: 1rem;
+  transition: transform .4s; 
+  overflow: hidden;
+}
+
+.project:hover {
+  transform: scale(1.03);
+}
+
+.project-name {
+  font-size: 1.5rem;
+}
+
+.project-image {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.p:hover .p-img {
+  transform: translateY(-100%);
+}
+
+.project-description {
+  min-height: 4rem;
+  padding: 0.5rem;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-buttons button {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .project {
+    max-width: 100%;
+  }
+}

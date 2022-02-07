@@ -1,0 +1,29 @@
+.list {
+  padding: 0 3rem;
+}
+
+.list-title {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: #4d9078;
+  text-align: center;
+}
+
+.list-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* @media screen and (max-width: 850px) {
+  .list {
+    flex-direction: row;
+  }
+  .list-content {
+    flex-direction: column;
+  }
+} */
