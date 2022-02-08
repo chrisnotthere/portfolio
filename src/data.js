@@ -1,11 +1,13 @@
 import Blog from './images/blog.jpg'
+import Fakebook from './images/Fakebook.png'
+import FakebookLogin from './images/Fakebook-login.png'
 
 export const projects = [
   {
     id: 1,
-    name: 'Project 1',
-    image: Blog,
-    description: 'This is a sample description for a project. This is a sample description for a project. This is a sample description for a project. This is a sample description for a project.',
+    name: 'Fakebook',
+    image: FakebookLogin,
+    description: 'FakeBook is a Facebook clone made with Node/Express, React, and MongoDB. Become friends by sending or accepting friend requests, make comments on and like posts, and more.',
     demoLink: 'https://chrisnotthere.github.io/fakebook/#/login',
     repoLink: 'https://github.com/chrisnotthere/fakebook',
   },
