@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .toggle-icon{
@@ -19,11 +20,11 @@
 }
 
 .toggle-button{
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 50%;
   background-color: #999;
   border: 1px solid black;
   position: absolute;
-  cursor: pointer;
+  transition: all 0.15s ease-in-out;
 }
