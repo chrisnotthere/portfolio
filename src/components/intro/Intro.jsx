@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import './intro.css';
-import Man from '../../images/man.png';
 import Webdev from '../../images/webdev.png';
 import { ThemeContext } from '../../context';
 
@@ -9,7 +8,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='intro'>
+    <div className='intro' id='home' >
 
       <div className="intro-left">
         <div className="intro-left-wrapper">

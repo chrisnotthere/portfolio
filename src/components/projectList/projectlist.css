@@ -1,5 +1,5 @@
 .list {
-  padding: 0 3rem;
+  padding: 3rem;
 }
 
 .list-title {
@@ -22,5 +22,4 @@
   .list {
     padding: 0 0.5rem;
   }
-
 }
