@@ -16,14 +16,11 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-
 }
 
-/* @media screen and (max-width: 850px) {
+@media screen and (max-width: 480px) {
   .list {
-    flex-direction: row;
+    padding: 0 0.5rem;
   }
-  .list-content {
-    flex-direction: column;
-  }
-} */
+
+}

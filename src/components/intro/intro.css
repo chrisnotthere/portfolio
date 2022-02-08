@@ -12,11 +12,13 @@
 }
 
 .intro-left-wrapper {
-  background: linear-gradient(90deg, #f2c14e 75%, #4d9078 100%);  
+  background: linear-gradient(90deg, #f2c14e 75%, #4d9078 100%);
   padding: 2rem;
+  margin: 1rem;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 22px;
   color: black !important;
+  z-index: 2;
 }
 
 .intro-greeting {
@@ -100,4 +102,23 @@
 .intro-right-image {
   max-width: 40%;
   z-index: 99;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-left-wrapper {
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+  }
+
+  .intro-title {
+    justify-content: center;
+  }
+
 }
