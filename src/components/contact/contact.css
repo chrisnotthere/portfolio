@@ -29,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-right: 1rem;
 }
 
 .contact-title {
@@ -41,7 +42,7 @@
 .contact-info-item {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  margin: 3rem 0;
   font-weight: 300;
   width: 70%;
 }
@@ -87,7 +88,7 @@ textarea {
 
 button {
   border: none;
-  padding: 15px;
+  padding: 0.5rem;
   background-color: #4d9078;
   color: white;
   font-weight: 500;
