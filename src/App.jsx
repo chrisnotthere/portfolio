@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
+import NavBar from './components/navbar/NavBar';
 import ProjectList from './components/projectList/ProjectList';
 import ThemeToggle from './components/themetoggle/ThemeToggle';
 import { ThemeContext } from './context';
@@ -12,12 +13,13 @@ function App() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="App"
+    <div
       style={{
         backgroundColor: darkMode ? "#333" : "#f2c14e",
         color: darkMode && "white",
       }}>
       <ThemeToggle />
+      <NavBar />
       <Intro />
       <About />
       <ProjectList />
