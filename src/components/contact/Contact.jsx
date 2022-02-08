@@ -63,7 +63,7 @@ const Contact = () => {
               <img className='contact-icon' src={Maple} alt=''
                 style={{ filter: darkMode && 'invert(91%) sepia(65%) saturate(1451%) hue-rotate(317deg) brightness(97%) contrast(95%)' }}
               />
-              Victoria, BC. Canada
+              Victoria, BC.
             </div>
           </div>
         </div>
