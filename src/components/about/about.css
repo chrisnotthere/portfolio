@@ -22,7 +22,7 @@
   top: 50px;
   left: 50px;
   background-color: #4d9078;
-  z-index: -1;
+  z-index: 1;
 }
 
 .about-card {
@@ -30,6 +30,7 @@
   height: 60vh;
   border-radius: 3rem;
   overflow: hidden;
+  z-index: 2;
 }
 
 .about-img {

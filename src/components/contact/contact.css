@@ -104,3 +104,12 @@ button:hover {
 .contact-sent {
   color: red;
 }
+
+.dark::placeholder {
+  color: pink
+}
+
+.dark{
+  color: white;
+}
+

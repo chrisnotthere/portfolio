@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './intro.css';
 import Man from '../../images/man.png';
 import Webdev from '../../images/webdev.png';
+import { ThemeContext } from '../../context';
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className='intro'>
 
@@ -24,7 +28,9 @@ const Intro = () => {
 
       <div className="intro-right">
         <div className="intro-right-bg"></div>
-        <img className='intro-right-image' src={Webdev} alt="" />
+        <img className='intro-right-image' src={Webdev} alt=""
+          style={{ filter: darkMode && 'invert(91%) sepia(65%) saturate(1451%) hue-rotate(317deg) brightness(97%) contrast(95%)' }}
+        />
       </div>
 
     </div>
