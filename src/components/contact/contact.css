@@ -139,19 +139,10 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .contact-wrapper {
     flex-direction: column;
     height: 90%;
-  }
-
-  .contact-title {
-    font-size: 2rem;
-  }
-
-  .contact-info-item {
-    margin: 20px 0px;
-    width: 100%;
   }
 
   .contact-desc {
@@ -160,9 +151,20 @@ button:hover {
 
   form {
     margin-top: 0px;
-    margin-left: 2rem;
+    margin-left: 4rem;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-info-item {
+    margin: 20px 0px;
+    width: 100%;
   }
 
   input {
