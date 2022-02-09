@@ -56,11 +56,13 @@ export const projects = [
 export const skills = [
   {
     name: 'React',
-    image: 'reactLogo'
+    image: 'reactLogo',
+    category: 'Technology'
   },
   {
-    name: 'Express',
-    image: 'expressLogo'
+    name: 'Git',
+    image: 'gitLogo',
+    category: 'Other Tools'
   },
 ]
 
