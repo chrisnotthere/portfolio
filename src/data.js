@@ -1,6 +1,23 @@
 import Blog from './images/blog.jpg'
-import Fakebook from './images/Fakebook.png'
 import FakebookLogin from './images/Fakebook-login.png'
+import HTML from './images/html.png';
+import CSS from './images/css.png';
+import JavaScript from './images/javascript.png';
+import React from './images/react.png';
+import Pug from './images/pug.png';
+import Node from './images/node.png';
+import Express from './images/express.png';
+import Mongoose from './images/mongoose.png';
+import MongoDB from './images/mongodb.png';
+import mariaDB from './images/mariadb.png';
+import Firebase from './images/firebase.png';
+import PHP from './images/php.png';
+import C from './images/c.png';
+import Git from './images/git.png';
+import Linux from './images/linux.png';
+import VSCode from './images/vscode.png';
+import NPM from './images/npm.png';
+import Jest from './images/jest.png';
 
 export const projects = [
   {
@@ -53,16 +70,91 @@ export const projects = [
   },
 ];
 
-export const skills = [
+export const frontend = [
   {
-    name: 'React',
-    image: 'reactLogo',
-    category: 'Technology'
+    name: 'HTML',
+    image: HTML,
   },
   {
-    name: 'Git',
-    image: 'gitLogo',
-    category: 'Other Tools'
+    name: 'CSS',
+    image: CSS,
+  },
+  {
+    name: 'JavaScript',
+    image: JavaScript,
+  },
+  {
+    name: 'React',
+    image: React,
+  },
+  {
+    name: 'Pug/Jade',
+    image: Pug,
   },
 ]
 
+export const backend = [
+  {
+    name: 'Node',
+    image: Node,
+    category: 'Backend',
+  },
+  {
+    name: 'Express',
+    image: Express,
+    category: 'Backend',
+  },
+  {
+    name: 'Mongoose',
+    image: Mongoose,
+    category: 'Backend',
+  },
+  {
+    name: 'MongoDB',
+    image: MongoDB,
+    category: 'Backend',
+  },
+  {
+    name: 'MariaDB',
+    image: mariaDB,
+    category: 'Backend',
+  },
+  {
+    name: 'Firebase',
+    image: Firebase,
+    category: 'Backend',
+  },
+  {
+    name: 'PHP',
+    image: PHP,
+    category: 'Backend',
+  },
+  {
+    name: 'C#',
+    image: C,
+    category: 'Backend',
+  },
+]
+
+export const others = [
+  {
+    name: 'Git',
+    image: Git,
+  },
+  {
+    name: 'Linux CLI',
+    image: Linux,
+  },
+  {
+    name: 'VSCode',
+    image: VSCode,
+  },
+  {
+    name: 'NPM',
+    image: NPM,
+  },
+  {
+    name: 'Jest',
+    image: Jest,
+  },
+]

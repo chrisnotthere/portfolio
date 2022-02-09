@@ -1,0 +1,26 @@
+.skill {
+  text-align: center;
+}
+
+.skills-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.skills-list-item:hover {
+  transform: scale(1.1);
+}
+
+.skills-text {
+  font-weight: 500;
+}
