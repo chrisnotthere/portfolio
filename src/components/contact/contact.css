@@ -130,12 +130,10 @@ button:hover {
 @keyframes changesize {
   from {
     transform: scale(1);
-    border: 1pt solid #333;
     }
 
   to {
     transform: scale(1.35);
-    border: 1pt solid #f2c14e;
   }
 }
 

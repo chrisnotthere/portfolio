@@ -75,19 +75,19 @@ const Contact = () => {
             freelancing if the right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSubmit} >
-            <input type='text' placeholder='Name' name='name'
+            <input type='text' placeholder='Name' name='name' required
               style={{ backgroundColor: darkMode && "#555" }}
               className={darkMode ? 'dark' : ''}
             />
-            <input type='text' placeholder='Subject' name='subject'
+            <input type='text' placeholder='Subject' name='subject' required
               style={{ backgroundColor: darkMode && "#555" }}
               className={darkMode ? 'dark' : ''}
             />
-            <input type='text' placeholder='Email' name='email'
+            <input type='email' placeholder='Email' name='email' required
               style={{ backgroundColor: darkMode && "#555" }}
               className={darkMode ? 'dark' : ''}
             />
-            <textarea rows='10' placeholder='Message' name='message'
+            <textarea rows='10' placeholder='Message' name='message' required
               style={{ backgroundColor: darkMode && "#555" }}
               className={darkMode ? 'dark' : ''}
             />
