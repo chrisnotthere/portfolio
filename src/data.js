@@ -18,6 +18,7 @@ import Linux from './images/linux.png';
 import VSCode from './images/vscode.png';
 import NPM from './images/npm.png';
 import Jest from './images/jest.png';
+import Mario from './images/mario-memory.png'
 
 export const projects = [
   {
@@ -30,11 +31,11 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'Project 2',
-    image: Blog,
-    description: 'This is a sample description for a project. This is a sample description for a project. This is a sample description for a project. This is a sample description for a project.',
-    demoLink: 'https://chrisnotthere.github.io/fakebook/#/login',
-    repoLink: 'https://github.com/chrisnotthere/fakebook',
+    name: 'Mario Memory',
+    image: Mario,
+    description: 'A simple memory game created in React. Try and click on a different character each time and remember who you have already selected. The cards are "shuffled" each time to make things more difficult. Choose how many cards to display at once with the card slider. Your score and high score are shown on the scoreboard.',
+    demoLink: 'https://chrisnotthere.github.io/memory-game/',
+    repoLink: 'https://github.com/chrisnotthere/memory-game',
   },
   {
     id: 3,
