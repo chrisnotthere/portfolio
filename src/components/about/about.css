@@ -54,11 +54,11 @@
 }
 
 .about-desc {
-  font-weight: 400;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
   font-size: 1.75rem;
   margin: 1rem 0;
   line-height: 1.4;
-  font-family: 'Oxygen', sans-serif;
 }
 
 @media screen and (max-width:800px) {
