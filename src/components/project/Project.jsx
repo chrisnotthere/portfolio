@@ -1,7 +1,7 @@
 import './project.css';
 // import Blog from '../../images/blog.jpg'
 
-function Project({ name, image, description, demoLink, repoLink }) {
+function Project({ name, image, description, demoLink, repoLink, tech }) {
   return (
     <div className='project'>
 
@@ -10,6 +10,15 @@ function Project({ name, image, description, demoLink, repoLink }) {
       <img className='project-image' src={image} alt='' />
 
       <p className='project-description'>{description}</p>
+
+      <div className="project-tech">
+        <p className='tech-desc' >Technology used:</p>
+        {tech.map(t =>
+          <div className='tech-icon-wrapper' key={t} >
+            <img className='tech-icon' src={t} alt={t} ></img>
+          </div>)
+        }
+      </div>
 
       <div className="project-buttons">
         <a href={demoLink} target="_blank" rel='noreferrer'>

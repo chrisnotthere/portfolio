@@ -13,6 +13,8 @@
 
 .project-name {
   font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
 }
 
 .project-image {
@@ -27,6 +29,31 @@
 .project-description {
   min-height: 4rem;
   padding: 0.5rem;
+}
+
+.project-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.tech-desc {
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.tech-icon-wrapper {
+  background-color: white;
+  /* padding: 0.15rem; */
+  border-radius: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.tech-icon {
+  height: 2rem;
+  margin: 0.5rem;
 }
 
 .project-buttons {

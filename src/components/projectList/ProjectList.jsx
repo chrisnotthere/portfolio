@@ -17,6 +17,7 @@ function ProjectList() {
             description={item.description}
             demoLink={item.demoLink}
             repoLink={item.repoLink}
+            tech={item.techUsed}
           />
         ))}
       </div>
