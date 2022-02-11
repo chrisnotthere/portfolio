@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css'
-import Headshot from '../../images/headshot.jpg'
+import Headshot from '../../images/headshot.png'
 
 const About = () => {
   return (
