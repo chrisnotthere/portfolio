@@ -1,5 +1,4 @@
 import './project.css';
-// import Blog from '../../images/blog.jpg'
 
 function Project({ name, image, description, demoLink, repoLink, tech }) {
   return (
@@ -12,7 +11,7 @@ function Project({ name, image, description, demoLink, repoLink, tech }) {
       <p className='project-description'>{description}</p>
 
       <div className="project-tech">
-        <p className='tech-desc' >Technology used:</p>
+        {/* <p className='tech-desc' >Technology used:</p> */}
         {tech.map(t =>
           <div className='tech-icon-wrapper' key={t} >
             <img className='tech-icon' src={t} alt={t} ></img>

@@ -70,7 +70,7 @@ export const projects = [
   // },
   {
     id: 6,
-    name: 'Project 6',
+    name: 'newscientist.com clone',
     image: NWS,
     description: 'A New Scientist article clone made with HTML and CSS (Flexbox and Grid).',
     demoLink: 'https://chrisnotthere.github.io/newscientist-clone',
