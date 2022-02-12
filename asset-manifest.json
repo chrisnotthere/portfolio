@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c97722de.css",
+    "main.js": "/portfolio/static/js/main.b136e53f.js",
+    "static/media/headshot.png": "/portfolio/static/media/headshot.5924a6c60ad27d39fc2f.png",
+    "static/media/tnw.png": "/portfolio/static/media/tnw.59ab313b498a7822c8d4.png",
+    "static/media/nws.png": "/portfolio/static/media/nws.5fa2ee0f63c3ad2d3791.png",
+    "static/media/mario-memory.png": "/portfolio/static/media/mario-memory.d019c8f09e870484252a.png",
+    "static/media/linux.png": "/portfolio/static/media/linux.8537f9061761ab712efe.png",
+    "static/media/blog.jpg": "/portfolio/static/media/blog.1899d2287f2c265d271f.jpg",
+    "static/media/vscode.png": "/portfolio/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/etch.png": "/portfolio/static/media/etch.0162a613731ada0d42ac.png",
+    "static/media/Fakebook-login.png": "/portfolio/static/media/Fakebook-login.02d881f7c7e346137123.png",
+    "static/media/mongoose.png": "/portfolio/static/media/mongoose.d1e73d9c472680150b28.png",
+    "static/media/php.png": "/portfolio/static/media/php.60da48a0173a75d80301.png",
+    "static/media/mariadb.png": "/portfolio/static/media/mariadb.1d7a68aa23f6e811cb95.png",
+    "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/git.png": "/portfolio/static/media/git.140fa4d62c3584333da4.png",
+    "static/media/pug.png": "/portfolio/static/media/pug.c385e3aa99643a3c164a.png",
+    "static/media/resume.png": "/portfolio/static/media/resume.b00e9ef74a2efc798c33.png",
+    "static/media/sun.png": "/portfolio/static/media/sun.d07c9ecea0ad9094855a.png",
+    "static/media/moon.png": "/portfolio/static/media/moon.8129ab9835404e1ce67b.png",
+    "static/media/jest.png": "/portfolio/static/media/jest.809768de8350fa5f6a21.png",
+    "static/media/node.png": "/portfolio/static/media/node.af3f8ae6261cc46e08c0.png",
+    "static/media/webdev.png": "/portfolio/static/media/webdev.c12c8bcfe71b7ff8e600.png",
+    "static/media/html.png": "/portfolio/static/media/html.2c6a71b184b518b01b9a.png",
+    "static/media/css.png": "/portfolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
+    "static/media/maple.png": "/portfolio/static/media/maple.6a8ac698b58086c75cbf.png",
+    "static/media/c.png": "/portfolio/static/media/c.c6dc48571d7cc2e51d73.png",
+    "index.html": "/portfolio/index.html",
+    "main.c97722de.css.map": "/portfolio/static/css/main.c97722de.css.map",
+    "main.b136e53f.js.map": "/portfolio/static/js/main.b136e53f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c97722de.css",
+    "static/js/main.b136e53f.js"
+  ]
+}
