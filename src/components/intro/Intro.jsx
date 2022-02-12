@@ -11,7 +11,7 @@ const Intro = () => {
     <div className='intro' id='home' >
 
       <div className="intro-left">
-        <div className="intro-left-wrapper">
+        <div className="intro-left-wrapper" style={{ filter: darkMode && 'invert(100%) sepia(65%) hue-rotate(300deg)' }}>
           <div className="intro-greeting">Hello, my name is</div>
           <div className="intro-name">Chris Nash</div>
           <div className="intro-title">
