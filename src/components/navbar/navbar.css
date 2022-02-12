@@ -1,9 +1,7 @@
 .navbar {
-  /* width: 20rem; */
-  /* height: 2.25rem; */
   border-radius: 0.5rem;
   border: 1px solid rgb(0, 0, 0);
-  background-color:#4d9078;
+  background-color: #4d9078;
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -38,8 +36,14 @@
   background-color: #136649;
 }
 
+.nav-link:hover > .nav-icon {
+  filter: saturate(500%) contrast(800%) brightness(500%) 
+      invert(80%) sepia(50%) hue-rotate(120deg); 
+}
+
 .nav-icon {
-  width: 1.5rem;
+  width: 1.25rem;
+  transition: all 1s ease-out;
 }
 
 .hamburger {
