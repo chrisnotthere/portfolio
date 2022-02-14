@@ -24,6 +24,7 @@
   margin: 3rem 2rem;
   text-decoration: underline;
   text-decoration-color: #4d9078;
+  width: 14rem;
 }
 
 .skills-wrapper {
@@ -40,7 +41,8 @@
 
 @media screen and (max-width: 800px) {
   .skills-category {
-    margin: 1rem 2rem;
+    margin: 1rem 0;
+    width: 100%;
   }
 
   .skills-wrapper {
