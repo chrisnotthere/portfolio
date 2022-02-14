@@ -32,6 +32,11 @@
   border-radius: 3rem;
   overflow: hidden;
   z-index: 2;
+  transition: all 0.2s ease-out;
+}
+
+.about-card:hover {
+  transform: rotate(-10deg);
 }
 
 .about-img {
@@ -42,7 +47,7 @@
 
 .about-title {
   font-size: 2rem;
-  margin-top: 1rem;
+  margin: 1rem 0 2.5rem 0;
 }
 
 .about-title span {
@@ -51,6 +56,11 @@
   font-size: 3rem;
   font-weight: 500;
   margin-right: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.about-title span:hover {
+  color: red;
 }
 
 .about-desc {
@@ -61,7 +71,7 @@
   line-height: 1.4;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
   .about {
     flex-direction: column;
     text-align: center;

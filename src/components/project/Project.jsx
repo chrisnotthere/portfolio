@@ -13,9 +13,12 @@ function Project({ name, image, description, demoLink, repoLink, tech }) {
       <div className="project-tech">
         {/* <p className='tech-desc' >Technology used:</p> */}
         {tech.map(t =>
-          <div className='tech-icon-wrapper' key={t} >
-            <img className='tech-icon' src={t} alt={t} ></img>
-          </div>)
+          <a href='#skills'>
+            <div className='tech-icon-wrapper' key={t} >
+              <img className='tech-icon' src={t} alt={t} ></img>
+            </div>
+          </a>
+        )
         }
       </div>
 

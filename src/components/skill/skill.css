@@ -18,9 +18,27 @@
 }
 
 .skills-list-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2) rotate(-8deg);
 }
 
 .skills-text {
   font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills-list-item {
+    margin: 1rem 1rem;
+    padding: 0.75rem;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
 }

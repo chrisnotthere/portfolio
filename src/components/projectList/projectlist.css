@@ -8,6 +8,11 @@
   text-decoration-color: #4d9078;
   text-align: center;
   margin-bottom: 2rem;
+  transition: all 0.5s ease;
+}
+
+.list-title:hover {
+  color: red;
 }
 
 .list-content {

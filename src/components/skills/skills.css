@@ -1,5 +1,4 @@
 .skills {
-  /* height: 100vh; */
   padding: 4rem 0 6rem 0;
 }
 
@@ -17,6 +16,11 @@
   text-align: center;
   text-decoration: underline;
   text-decoration-color: #4d9078;
+  transition: all 0.5s ease;
+}
+
+.skills-title:hover {
+  color: red;
 }
 
 .skills-category {
