@@ -1,5 +1,5 @@
 .list {
-  padding: 3rem;
+  padding: 0 4rem;
 }
 
 .list-title {
@@ -7,7 +7,7 @@
   text-decoration: underline;
   text-decoration-color: #4d9078;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 4rem;
   transition: all 0.5s ease;
 }
 

@@ -1,6 +1,6 @@
 .project {
   max-width: 40%;
-  margin: 1rem;
+  margin-bottom: 6rem;
   padding-bottom: 1rem;
   border: 2px solid #4d9078;
   border-radius: 1rem;
@@ -11,10 +11,12 @@
   border: 2px solid #fff09c;
 }
 
-.project-name {
-  font-size: 1.5rem;
-  font-weight: 500;
+.project-title {
+  font-size: 2rem;
+  /* font-weight: 500; */
   margin: 0.5rem 0;
+  text-decoration: underline;
+  text-decoration-color: #4d9078;
 }
 
 .project-image {
@@ -27,8 +29,10 @@
 }
 
 .project-description {
+  font-size: 1.2rem;
   min-height: 4rem;
   padding: 0.5rem;
+  line-height: 1.4;
 }
 
 .project-tech {
@@ -59,6 +63,7 @@
 .project-buttons {
   display: flex;
   justify-content: space-around;
+  margin: 1rem 0;
 }
 
 .project-buttons button {

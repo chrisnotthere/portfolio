@@ -4,11 +4,9 @@ function Project({ name, image, description, demoLink, repoLink, tech }) {
   return (
     <div className='project'>
 
-      <h4 className='project-name'>{name}</h4>
-
       <img className='project-image' src={image} alt='' />
 
-      <p className='project-description'>{description}</p>
+      <h4 className='project-title'>{name}</h4>
 
       <div className="project-tech">
         {/* <p className='tech-desc' >Technology used:</p> */}
@@ -21,6 +19,8 @@ function Project({ name, image, description, demoLink, repoLink, tech }) {
         )
         }
       </div>
+
+      <p className='project-description'>{description}</p>
 
       <div className="project-buttons">
         <a href={demoLink} target="_blank" rel='noreferrer'>
