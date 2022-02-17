@@ -71,8 +71,7 @@ const Contact = () => {
 
         <div className='contact-right'>
           <p className='contact-desc'>
-            Feel free to get in touch. I am available for
-            freelancing if the right project comes along.
+            Feel free to get in touch. I am currently looking for a full-time role.
           </p>
           <form ref={formRef} onSubmit={handleSubmit} >
             <input type='text' placeholder='Name' name='name' required
