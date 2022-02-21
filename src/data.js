@@ -18,10 +18,10 @@ import Linux from './images/linux.png';
 import VSCode from './images/vscode.png';
 import NPM from './images/npm.png';
 import Jest from './images/jest.png';
-import Mario from './images/mario-memory.png'
-import Etch from './images/etch.png'
-import TNW from './images/tnw.png'
-import NWS from './images/nws.png'
+import Mario from './images/mario-memory.png';
+import Etch from './images/etch.png';
+import TNW from './images/tnw.gif';
+import NWS from './images/nws.png';
 
 export const projects = [
   {
