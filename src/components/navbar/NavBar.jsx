@@ -13,9 +13,7 @@ const NavBar = () => {
       </ul>
       <ul class="nav-list default">
         <a href="#home" className="nav-link">
-          {/* <li className="nav-item"> */}
-            <img className='nav-icon' src={Home} alt="" />
-          {/* </li> */}
+          <img className='nav-icon' src={Home} alt="" />
         </a>
         <a href="#about" className="nav-link">
           <li className="nav-item">

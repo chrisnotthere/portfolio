@@ -4,7 +4,7 @@ import Headshot from '../../images/headshot.png'
 
 const About = () => {
   return (
-    <div className="about" id='about'>
+    <section className="about" id='about'>
       <div className="about-left">
         <div className="about-card bg"></div>
         <div className="about-card">
@@ -19,7 +19,7 @@ const About = () => {
         <p className="about-desc">Web development allows me to create things from the ground-up, solve technical problems along the way, and harness my creativity. The blend of development and design is what makes me excited about a future in this field.</p>
         <p className="about-desc">After almost two years of learning, I am ready to level-up to a full-time role where I can contribute to a team while continuing to learn and grow.</p>
       </div>
-    </div>
+    </section>
   )
 };
 

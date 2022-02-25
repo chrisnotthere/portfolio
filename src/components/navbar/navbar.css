@@ -36,9 +36,8 @@
   background-color: #136649;
 }
 
-.nav-link:hover > .nav-icon {
-  filter: saturate(500%) contrast(800%) brightness(500%) 
-      invert(80%) sepia(50%) hue-rotate(120deg); 
+.nav-link:hover>.nav-icon {
+  filter: saturate(500%) contrast(800%) brightness(500%) invert(80%) sepia(50%) hue-rotate(120deg);
 }
 
 .nav-icon {
@@ -69,5 +68,4 @@
     display: inline;
     cursor: pointer;
   }
-
 }

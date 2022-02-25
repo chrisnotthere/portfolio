@@ -54,12 +54,12 @@ const Intro = () => {
   }
 
   useEffect(()=> {
-    // function([string1, string2],target id,[color1,color2])    
+    // function([string1, string2, string3],target id,[color1, color2, color3])    
     consoleText(['Developer', 'Designer', 'Life-long learner'], 'text', ['#4d9078', '#e26729', '#6596ce']);
   }, [])
 
   return (
-    <div className='intro' id='home' >
+    <section className='intro' id='home' >
 
       <div className="intro-left">
         <div className="intro-left-wrapper" style={{ filter: darkMode && 'invert(100%) sepia(65%) hue-rotate(300deg)' }}>
@@ -71,11 +71,6 @@ const Intro = () => {
               <span id='text'></span>
               <div className='console-underscore' id='console'>&#95;</div>
             </div>
-            {/* <div className="intro-title-wrapper">
-              <div className="intro-title-item i1">Developer</div>
-              <div className="intro-title-item i2">Designer</div>
-              <div className="intro-title-item i3">Student</div>
-            </div> */}
           </div>
         </div>
       </div>
@@ -87,7 +82,7 @@ const Intro = () => {
         />
       </div>
 
-    </div>
+    </section>
   )
 };
 

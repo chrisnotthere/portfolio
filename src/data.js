@@ -1,4 +1,3 @@
-import Blog from './images/blog.jpg'
 import FakebookLogin from './images/Fakebook-login.png'
 import HTML from './images/html.png';
 import CSS from './images/css.png';
@@ -60,16 +59,8 @@ export const projects = [
     repoLink: 'https://github.com/chrisnotthere/etch-a-sketch',
     techUsed: [HTML, CSS, JavaScript],
   },
-  // {
-  //   id: '005',
-  //   name: 'BBC News clone',
-  //   image: Blog,
-  //   description: 'This is a sample description for a project. This is a sample description for a project. This is a sample description for a project. This is a sample description for a project.',
-  //   demoLink: 'https://chrisnotthere.github.io/',
-  //   repoLink: 'https://github.com/chrisnotthere/',
-  // },
   {
-    id: '006',
+    id: '005',
     name: 'newscientist.com clone',
     image: NWS,
     description: 'A New Scientist article clone made with HTML and CSS (Flexbox and Grid).',

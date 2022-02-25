@@ -3,7 +3,6 @@ import './contact.css'
 import Maple from '../../images/maple.png'
 import Email from '../../images/mail.png'
 import Github from '../../images/github.png';
-import Resume from '../../images/resume.png';
 import Linkedin from '../../images/linkedin.png';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
@@ -27,7 +26,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='contact' id='contact' >
+    <section className='contact' id='contact' >
 
       <div className='contact-bg'></div>
       <div className='contact-wrapper'>
@@ -52,18 +51,13 @@ const Contact = () => {
                   style={{ filter: darkMode && 'invert(91%) sepia(65%) saturate(1451%) hue-rotate(317deg) brightness(97%) contrast(95%)' }}
                 />
               </a>
-              <a href=''>
-                <img className='contact-icon link' src={Resume} alt='resume'
-                  style={{ filter: darkMode && 'invert(91%) sepia(65%) saturate(1451%) hue-rotate(317deg) brightness(97%) contrast(95%)' }}
-                />
-              </a>
             </div>
-            <div className='contact-info-item'>
+            {/* <div className='contact-info-item'>
               <img className='contact-icon' src={Maple} alt=''
                 style={{ filter: darkMode && 'invert(91%) sepia(65%) saturate(1451%) hue-rotate(317deg) brightness(97%) contrast(95%)' }}
               />
               Victoria, BC.
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -97,7 +91,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 

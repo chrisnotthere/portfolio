@@ -5,7 +5,7 @@ import Skill from '../skill/Skill';
 
 const Skills = () => {
   return (
-    <div className='skills' id='skills'>
+    <section className='skills' id='skills'>
       <div className='skills-hr' />
       <h1 className="skills-title">Skills</h1>
 
@@ -50,7 +50,7 @@ const Skills = () => {
         </div>
       </ul>
       <div className='skills-hr' />
-    </div>
+    </section>
   )
 };
 
