@@ -113,35 +113,6 @@ button:hover {
   color: pink
 }
 
-.scroll-to-top {
-  cursor: pointer;
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  padding: 0.5rem;
-  transition: 0.3s all ease-in-out;
-}
-
-.scroll-to-top:hover {
-  animation-duration: 0.85s;
-  animation-name: changesize;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes changesize {
-  from {
-    transform: scale(1);
-    }
-
-  to {
-    transform: scale(1.35);
-  }
-}
-
 @media screen and (max-width: 600px) {
   .contact-wrapper {
     flex-direction: column;

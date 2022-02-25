@@ -7,7 +7,6 @@ import Resume from '../../images/resume.png';
 import Linkedin from '../../images/linkedin.png';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
-import Top from '../../images/top.png'
 
 const Contact = () => {
   const formRef = useRef()
@@ -25,7 +24,6 @@ const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
-
   }
 
   return (
@@ -98,16 +96,8 @@ const Contact = () => {
             }
           </form>
         </div>
-
-        <a href='#home'>
-          <div className="scroll-to-top">
-            <img src={Top} alt="" />
-          </div>
-        </a>
-
       </div>
     </div>
-
   )
 };
 
