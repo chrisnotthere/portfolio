@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
 import NavBar from './components/navbar/NavBar';
 import ProjectList from './components/projectList/ProjectList';
+import ScrollButton from './components/scrollButton/ScrollButton';
 import Skills from './components/skills/Skills';
 import ThemeToggle from './components/themetoggle/ThemeToggle';
 import { ThemeContext } from './context';
@@ -26,6 +27,7 @@ function App() {
       <ProjectList />
       <Skills />
       <Contact />
+      <ScrollButton />
     </div>
   );
 }
