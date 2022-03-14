@@ -47,12 +47,30 @@
 
 .hamburger {
   display: none;
+  width: 5rem;
 }
 
-@media screen and (max-width: 480px) {
-  .navbar {
+.hamburger img {
+  width: 2rem;
+  position: relative;
+}
+
+.isMenu {
+  color: red;
+  display: flex !important;
+  flex-direction: column;
+  height: 60vh;
+  width: 12rem;
+}
+
+.isMenu a {
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  /* .navbar {
     width: 3.5rem;
-  }
+  } */
 
   .nav-link {
     padding: 0.25rem;
@@ -67,5 +85,11 @@
   .hamburger {
     display: inline;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hamburger img {
+    width: 2.5rem;
   }
 }
