@@ -64,11 +64,6 @@ const NavBar = () => {
             Contact
           </li>
         </a>
-        <a href="https://chrisnotthere.github.io/blog-client/" className="nav-link" onClick={menuToggleHandler} >
-          <li className="nav-item">
-            Blog
-          </li>
-        </a>
       </ul>
     </nav>
   )
