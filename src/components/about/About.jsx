@@ -11,14 +11,15 @@ const About = () => {
           <img src={Headshot} alt="" className="about-img" />
         </div>
       </div>
-      <div className="about-right">
-        <h1 className="about-title"><span>About me</span> From the hospitality industry to web development.</h1>
-        <p className="about-desc">I'm an ex-cook who loves building things from scratch.</p>
-        <p className="about-desc">I had long considered changing career before the 2020 pandemic, but after losing my job that was the push I needed to make the jump. I immediately began learning the basics though freeCodeCamp, finishing their "Responsive Web Design Certification" and loved every second of it. I then completed an "Interactive Media Development" college certificate, where I learned all kinds of things from web development, to making games with Unity/Maya, and UI/UX design principles . After IMD I have been self-taught. Since then I have finished The Odin Project's Full Stack Javascript curriculum.</p>
-        <p className="about-desc">My time in the hospitality industry has taught me many things, and left me with an abundance transferable skills such as "getting-stuff-done", effective communication, a calm head during the lunch-rush, and much more.</p>
-        <p className="about-desc">Web development allows me to create things from the ground-up, solve technical problems along the way, and harness my creativity. The blend of development and design is what makes me excited about a future in this field.</p>
-        <p className="about-desc">After almost two years of learning, I am ready to level-up to a full-time role where I can contribute to a team while continuing to learn and grow.</p>
-      </div>
+    <div className="about-right">
+      <h1 className="about-title"><span>About Me</span> – From Hospitality to Web Development</h1>
+      <p className="about-desc">Once a cook, now a full-stack web developer, my journey is one of continuous transformation and growth.</p>
+      <p className="about-desc">The unforeseen challenges of 2020 served as a catalyst for change, propelling me from the hospitality industry into the exciting world of web development. I had long considered changing careers before the 2020 pandemic, but after losing my job, that was the push I needed to make the jump.</p>
+      <p className="about-desc">Starting with freeCodeCamp's "Responsive Web Design Certification," my fascination with coding quickly blossomed. I further expanded my knowledge through an "Interactive Media Development" certificate at Camosun College, diving into web development, game development with Unity/Maya, and UI/UX design principles. My learning path didn't stop there; I embraced self-education, completing The Odin Project's Full Stack Javascript curriculum.</p>
+      <p className="about-desc">Transitioning from hospitality endowed me with a unique set of transferable skills - adaptability, effective communication, and the ability to remain composed under pressure. These skills have helped me in my development career, enabling me to tackle problems with a creative and pragmatic approach.</p>
+      <p className="about-desc">Over the past two years, working as a full-stack web developer for a local Victoria-based company, I have improved my technical skills and contributed to multiple projects. This experience has reinforced my love for building things and solving problems, allowing me to apply my knowledge in a real-world setting.</p>
+      <p className="about-desc">Now, with nearly two years of professional experience under my belt, I am eager to take on new challenges and opportunities. I am looking for a role where I can contribute my skills to a forward-thinking team and continue my professional growth.</p>
+    </div>
     </section>
   )
 };

@@ -6,7 +6,7 @@
 }
 
 .about-left {
-  flex: 2;
+  flex: 4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .about-right {
-  flex: 3;
+  flex: 7;
   margin-right: 4rem;
 }
 
@@ -66,9 +66,9 @@
 .about-desc {
   font-family: 'Oxygen', sans-serif;
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 1rem 0;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 @media screen and (max-width:1000px) {
