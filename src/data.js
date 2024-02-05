@@ -1,4 +1,5 @@
-import FakebookLogin from './images/Fakebook-login.png'
+// import FakebookLogin from './images/Fakebook-login.png'
+// import Mario from './images/mario-memory.png';
 import HTML from './images/html.png';
 import CSS from './images/css.png';
 import JavaScript from './images/javascript.png';
@@ -6,6 +7,7 @@ import React from './images/react.png';
 import Pug from './images/pug.png';
 import Node from './images/node.png';
 import Express from './images/express.png';
+import ExpressSquare from './images/express-square.png';
 import Mongoose from './images/mongoose.png';
 import MongoDB from './images/mongodb.png';
 import mariaDB from './images/mariadb.png';
@@ -17,29 +19,51 @@ import Linux from './images/linux.png';
 import VSCode from './images/vscode.png';
 import NPM from './images/npm.png';
 import Jest from './images/jest.png';
-import Mario from './images/mario-memory.png';
 import Etch from './images/etch.png';
 import TNW from './images/tnw.gif';
 import NWS from './images/nws.png';
+import BlogHub from './images/bloghub2.png';
+import MarioMemoryGame from './images/mario-memory-game.png';
+import Redux from './images/redux.png';
+import Typescript from './images/typescript.png';
+import MySQL from './images/mysql.png';
 
 export const projects = [
+  // {
+  //   id: '001',
+  //   name: 'Fakebook',
+  //   image: FakebookLogin,
+  //   description: 'FakeBook is a Facebook clone made with Node/Express, React, and MongoDB. Features include friend requests, posts, comments, likes, and more. Authentication is handled using JSON Web Tokens',
+  //   demoLink: 'https://chrisnotthere.github.io/fakebook/#/login',
+  //   repoLink: 'https://github.com/chrisnotthere/fakebook',
+  //   techUsed: [React, Node, MongoDB],
+  // },
+  // {
+  //   id: '002',
+  //   name: 'Mario Memory',
+  //   image: Mario,
+  //   description: 'A simple memory game created in React. Try and click each character only once. The cards are "shuffled" each time to make things more difficult. Choose how many cards to display at once with the card slider. Can you get 18/18?',
+  //   demoLink: 'https://chrisnotthere.github.io/memory-game/',
+  //   repoLink: 'https://github.com/chrisnotthere/memory-game',
+  //   techUsed: [HTML, CSS, React],
+  // },
   {
     id: '001',
-    name: 'Fakebook',
-    image: FakebookLogin,
-    description: 'FakeBook is a Facebook clone made with Node/Express, React, and MongoDB. Features include friend requests, posts, comments, likes, and more. Authentication is handled using JSON Web Tokens',
-    demoLink: 'https://chrisnotthere.github.io/fakebook/#/login',
-    repoLink: 'https://github.com/chrisnotthere/fakebook',
-    techUsed: [React, Node, MongoDB],
+    name: 'BlogHub',
+    image: BlogHub,
+    description: 'BlogHub is a full-featured blog Content Management System (CMS) that empowers users to post, edit, rate, and engage with various blog content. Built with TypeScript, React, Node/Express, and MySQL, this project showcases modern web development practices and design patterns.',
+    demoLink: 'https://chrisnotthere.github.io/BlogHub/',
+    repoLink: 'https://github.com/chrisnotthere/BlogHub',
+    techUsed: [React, Typescript, ExpressSquare, MySQL],
   },
   {
     id: '002',
     name: 'Mario Memory',
-    image: Mario,
-    description: 'A simple memory game created in React. Try and click each character only once. The cards are "shuffled" each time to make things more difficult. Choose how many cards to display at once with the card slider. Can you get 18/18?',
-    demoLink: 'https://chrisnotthere.github.io/memory-game/',
-    repoLink: 'https://github.com/chrisnotthere/memory-game',
-    techUsed: [HTML, CSS, React],
+    image: MarioMemoryGame,
+    description: `A memory card flip game created using using React, Redux, Typescript, MongoDB, and Express. The game's logic and state are managed using Redux, and the entire application is written in TypeScript. It features three difficulty levels, a highscore leaderboard, end-to-end testing with Cypress, and a mobile-friendly design.`,
+    demoLink: 'https://chrisnotthere.github.io/mario-memory/',
+    repoLink: 'https://github.com/chrisnotthere/mario-memory',
+    techUsed: [React, Redux, Typescript, MongoDB, ExpressSquare],
   },
   {
     id: '003',
