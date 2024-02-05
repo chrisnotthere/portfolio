@@ -25,21 +25,20 @@
 
 .skills-category {
   font-size: 2rem;
-  margin: 3rem 2rem;
   text-decoration: underline;
   text-decoration-color: #4d9078;
   width: 14rem;
 }
 
 .skills-wrapper {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0 6rem;
 }
 
 .skills-list {
-  display: flex;
   padding: 1rem 4rem;
 }
 
@@ -51,6 +50,7 @@
 
   .skills-wrapper {
     justify-content: center;
+    padding: 0;
   }
 
   .skills-list {

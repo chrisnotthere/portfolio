@@ -25,7 +25,6 @@ const Skills = () => {
       <ul className="skills-list">
         <h3 className="skills-category">Backend</h3>
         <div className="skills-wrapper">
-
           {backend.map((item) => (
             <Skill
               key={item.name}
@@ -39,7 +38,6 @@ const Skills = () => {
       <ul className="skills-list">
         <h3 className="skills-category">Others</h3>
         <div className="skills-wrapper">
-
           {others.map((item) => (
             <Skill
               key={item.name}

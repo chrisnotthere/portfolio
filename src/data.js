@@ -8,7 +8,6 @@ import Pug from './images/pug.png';
 import Node from './images/node.png';
 import Express from './images/express.png';
 import ExpressSquare from './images/express-square.png';
-import Mongoose from './images/mongoose.png';
 import MongoDB from './images/mongodb.png';
 import mariaDB from './images/mariadb.png';
 import Firebase from './images/firebase.png';
@@ -27,6 +26,21 @@ import MarioMemoryGame from './images/mario-memory-game.png';
 import Redux from './images/redux.png';
 import Typescript from './images/typescript.png';
 import MySQL from './images/mysql.png';
+import Bootstrap from './images/bootstrap.png';
+import MaterialUI from './images/mui.png';
+import Tailwind from './images/tailwind.png';
+import StyledComponents from './images/styled-components.png';
+import Responsive from './images/responsive.png';
+import Cassandra from './images/cassandra.png';
+import Python from './images/python.png';
+import Cypress from './images/cypress.png';
+import Shopify from './images/shopify.png';
+import GitHub from './images/github.png';
+import Bitbucket from './images/bitbucket.png';
+import Jira from './images/jira.png';
+import RESTful from './images/restapi.png';
+import GraphQL from './images/graphql.png';
+import AWS from './images/aws.png';
 
 export const projects = [
   // {
@@ -108,55 +122,80 @@ export const frontend = [
     image: JavaScript,
   },
   {
+    name: 'TypeScript',
+    image: Typescript,
+  },
+  {
     name: 'React',
     image: React,
   },
   {
-    name: 'Pug/Jade',
-    image: Pug,
+    name: 'Redux',
+    image: Redux,
+  },
+  {
+    name: 'Styled Components',
+    image: StyledComponents,
+  },
+  {
+    name: 'Responsive Design',
+    image: Responsive,
+  },
+  {
+    name: 'Bootstrap',
+    image: Bootstrap,
+  },
+  {
+    name: 'Material UI',
+    image: MaterialUI,
+  },
+  {
+    name: 'Tailwind',
+    image: Tailwind,
   },
 ]
+
 
 export const backend = [
   {
     name: 'Node',
     image: Node,
-    category: 'Backend',
   },
   {
     name: 'Express',
     image: Express,
-    category: 'Backend',
-  },
-  {
-    name: 'Mongoose',
-    image: Mongoose,
-    category: 'Backend',
   },
   {
     name: 'MongoDB',
     image: MongoDB,
-    category: 'Backend',
+  },
+  {
+    name: 'MySQL',
+    image: MySQL,
   },
   {
     name: 'MariaDB',
     image: mariaDB,
-    category: 'Backend',
+  },
+  {
+    name: 'CassandraDB',
+    image: Cassandra,
   },
   {
     name: 'Firebase',
     image: Firebase,
-    category: 'Backend',
+  },
+  {
+    name: 'Python',
+    image: Python,
   },
   {
     name: 'PHP',
     image: PHP,
-    category: 'Backend',
   },
   {
     name: 'C#',
     image: C,
-    category: 'Backend',
   },
 ]
 
@@ -166,13 +205,21 @@ export const others = [
     image: Git,
   },
   {
+    name: 'GitHub',
+    image: GitHub,
+  },
+  {
+    name: 'Bitbucket',
+    image: Bitbucket,
+  },
+  {
     name: 'Linux CLI',
     image: Linux,
   },
-  {
-    name: 'VSCode',
-    image: VSCode,
-  },
+  // {
+  //   name: 'VSCode',
+  //   image: VSCode,
+  // },
   {
     name: 'NPM',
     image: NPM,
@@ -181,4 +228,28 @@ export const others = [
     name: 'Jest',
     image: Jest,
   },
+  {
+    name: 'Cypress',
+    image: Cypress,
+  },
+  {
+    name: 'RESTful API',
+    image: RESTful,
+  },
+  {
+    name: 'GraphQL',
+    image: GraphQL,
+  },
+  {
+    name: 'AWS',
+    image: AWS,
+  },
+  {
+    name: 'Jira',
+    image: Jira,
+  },
+  {
+    name: 'Shopify App',
+    image: Shopify,
+  }
 ]

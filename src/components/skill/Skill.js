@@ -6,7 +6,7 @@ const Skill = ({ name, image }) => {
   return (
     <div className='skill'>
       <li className="skills-list-item">
-        <img className='skills-icon' src={image} alt="" />
+        <img className='skills-icon' src={image} alt={name} />
       </li>
       <p className='skills-text'>{name}</p>
     </div>

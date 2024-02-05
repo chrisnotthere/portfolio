@@ -6,7 +6,7 @@ function ProjectList() {
   return (
     <section className="list" id='projects'>
 
-      <h1 className="list-title">Projects</h1>
+      <h1 className="list-title">Personal Projects</h1>
       
       <div className="list-content">
         {projects.map((item) => (
