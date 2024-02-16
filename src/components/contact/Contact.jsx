@@ -1,8 +1,7 @@
 import React, { useContext, useRef, useState } from 'react';
 import './contact.css'
-import Maple from '../../images/maple.png'
 import Email from '../../images/mail.png'
-import Github from '../../images/github.png';
+import Github from '../../images/github2.svg';
 import Linkedin from '../../images/linkedin.png';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';

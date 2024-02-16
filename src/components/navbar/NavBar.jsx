@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import More from '../../images/more.png';
-import Home from '../../images/home.png';
-import Close from '../../images/close.png';
+import Home from '../../images/home.svg';
+import Close from '../../images/close.svg';
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

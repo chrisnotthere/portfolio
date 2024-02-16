@@ -1,46 +1,46 @@
-// import FakebookLogin from './images/Fakebook-login.png'
-// import Mario from './images/mario-memory.png';
-import HTML from './images/html.png';
-import CSS from './images/css.png';
-import JavaScript from './images/javascript.png';
-import React from './images/react.png';
-import Pug from './images/pug.png';
-import Node from './images/node.png';
-import Express from './images/express.png';
-import ExpressSquare from './images/express-square.png';
-import MongoDB from './images/mongodb.png';
-import mariaDB from './images/mariadb.png';
-import Firebase from './images/firebase.png';
-import PHP from './images/php.png';
-import C from './images/c.png';
-import Git from './images/git.png';
-import Linux from './images/linux.png';
-import VSCode from './images/vscode.png';
-import NPM from './images/npm.png';
-import Jest from './images/jest.png';
 import Etch from './images/etch.png';
 import TNW from './images/tnw.gif';
 import NWS from './images/nws.png';
 import BlogHub from './images/bloghub2.png';
 import MarioMemoryGame from './images/mario-memory-game.png';
-import Redux from './images/redux.png';
-import Typescript from './images/typescript.png';
-import MySQL from './images/mysql.png';
-import Bootstrap from './images/bootstrap.png';
-import MaterialUI from './images/mui.png';
-import Tailwind from './images/tailwind.png';
-import StyledComponents from './images/styled-components.png';
-import Responsive from './images/responsive.png';
-import Cassandra from './images/cassandra.png';
-import Python from './images/python.png';
-import Cypress from './images/cypress.png';
-import Shopify from './images/shopify.png';
-import GitHub from './images/github.png';
-import Bitbucket from './images/bitbucket.png';
-import Jira from './images/jira.png';
-import RESTful from './images/restapi.png';
-import GraphQL from './images/graphql.png';
-import AWS from './images/aws.png';
+// import FakebookLogin from './images/Fakebook-login.png'
+// import Mario from './images/mario-memory.png';
+
+// icons
+import AWS from './images/AWS-Light.svg';
+import Bitbucket from './images/bitbucket.svg';
+import Bootstrap from './images/Bootstrap.svg';
+import C from './images/csharp.svg';
+import Cassandra from './images/Cassandra.svg';
+import Confluence from './images/confluence.svg';
+import CSS from './images/CSS.svg';
+import Cypress from './images/cypress.svg';
+import Docker from './images/Docker.svg';
+import Express from './images/Express.svg';
+import Firebase from './images/Firebase.svg';
+import Git from './images/Git.svg';
+import GitHub from './images/Github.svg';
+import GraphQL from './images/GraphQL.svg';
+import HTML from './images/HTML.svg';
+import JavaScript from './images/JavaScript.svg';
+import Jest from './images/Jest.svg';
+import Jira from './images/jira.svg';
+import Linux from './images/Linux.svg';
+import MariaDB from './images/mariadb.svg';
+import MaterialUI from './images/MaterialUI.svg';
+import MongoDB from './images/MongoDB.svg';
+import Next from './images/NextJS.svg';
+import MySQL from './images/MySQL.svg';
+import Node from './images/NodeJS.svg';
+import NPM from './images/npm.svg';
+import PHP from './images/PHP.svg';
+import Python from './images/Python.svg';
+import React from './images/React.svg';
+import Redux from './images/Redux.svg';
+import RESTful from './images/RESTful.svg';
+import Shopify from './images/shopify.svg';
+import Tailwind from './images/TailwindCSS.svg';
+import Typescript from './images/TypeScript.svg';
 
 export const projects = [
   // {
@@ -68,7 +68,7 @@ export const projects = [
     description: 'BlogHub is a full-featured blog Content Management System (CMS) that empowers users to post, edit, rate, and engage with various blog content. Built with TypeScript, React, Node/Express, and MySQL, this project showcases modern web development practices and design patterns.',
     demoLink: 'https://chrisnotthere.github.io/BlogHub/',
     repoLink: 'https://github.com/chrisnotthere/BlogHub',
-    techUsed: [React, Typescript, ExpressSquare, MySQL],
+    techUsed: [React, Typescript, Express, MySQL],
   },
   {
     id: '002',
@@ -77,7 +77,7 @@ export const projects = [
     description: `A memory card flip game created using using React, Redux, Typescript, MongoDB, and Express. The game's logic and state are managed using Redux, and the entire application is written in TypeScript. It features three difficulty levels, a highscore leaderboard, end-to-end testing with Cypress, and a mobile-friendly design.`,
     demoLink: 'https://chrisnotthere.github.io/mario-memory/',
     repoLink: 'https://github.com/chrisnotthere/mario-memory',
-    techUsed: [React, Redux, Typescript, MongoDB, ExpressSquare],
+    techUsed: [React, Redux, Typescript, MongoDB, Express],
   },
   {
     id: '003',
@@ -134,12 +134,8 @@ export const frontend = [
     image: Redux,
   },
   {
-    name: 'Styled Components',
-    image: StyledComponents,
-  },
-  {
-    name: 'Responsive Design',
-    image: Responsive,
+    name: 'Next',
+    image: Next,
   },
   {
     name: 'Bootstrap',
@@ -154,7 +150,6 @@ export const frontend = [
     image: Tailwind,
   },
 ]
-
 
 export const backend = [
   {
@@ -175,7 +170,7 @@ export const backend = [
   },
   {
     name: 'MariaDB',
-    image: mariaDB,
+    image: MariaDB,
   },
   {
     name: 'CassandraDB',
@@ -201,6 +196,10 @@ export const backend = [
 
 export const others = [
   {
+    name: 'NPM',
+    image: NPM,
+  },
+  {
     name: 'Git',
     image: Git,
   },
@@ -213,16 +212,12 @@ export const others = [
     image: Bitbucket,
   },
   {
-    name: 'Linux CLI',
-    image: Linux,
+    name: 'Jira',
+    image: Jira,
   },
-  // {
-  //   name: 'VSCode',
-  //   image: VSCode,
-  // },
   {
-    name: 'NPM',
-    image: NPM,
+    name: 'Confluence',
+    image: Confluence,
   },
   {
     name: 'Jest',
@@ -241,15 +236,19 @@ export const others = [
     image: GraphQL,
   },
   {
+    name: 'Linux CLI',
+    image: Linux,
+  },
+  {
+    name: 'Docker',
+    image: Docker,
+  },
+  {
     name: 'AWS',
     image: AWS,
   },
   {
-    name: 'Jira',
-    image: Jira,
-  },
-  {
     name: 'Shopify App',
     image: Shopify,
-  }
+  },
 ]
